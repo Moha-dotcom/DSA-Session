@@ -1,12 +1,10 @@
-package Mohamed_Sahal.Runner;
-
-import Mohamed_Sahal.City;
+package Mohamed_Sahal;
 
 public class Node {
 
-    City city;
-    Node left;
-    Node right;
+    public City city;
+    public Node left;
+    public Node right;
 
     public Node(City city) {
         this.city = city;

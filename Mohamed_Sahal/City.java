@@ -2,19 +2,23 @@ package Mohamed_Sahal;
 
 public class City {
 
-    String City;
+    String cityName;
     int Miles;
 
     public City(String city, int miles) {
-        City = city;
+        cityName = city;
         Miles = miles;
     }
 
-    public String getCity() {
-        return City;
+    public String getCityName() {
+        return cityName;
     }
 
     public int getMiles() {
         return Miles;
     }
+
+
+
+
 }
